@@ -1,0 +1,315 @@
+/* *{
+    top:0;
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    
+} */
+
+@media only screen and (min-width: 0px) and  (max-width: 760px)
+{
+    .FivoTech {
+        height: 520px !important;
+        padding: 20px 20px 20px 20px;
+    }
+    /* .endorseButton {
+        
+        margin-left: 9em !important;
+       
+    } */
+    .Scrach{
+     
+        /* width : 330px !important; */
+        margin-top: 15px !important;
+    }
+    .QR{
+        margin-left: 6em !important;
+    
+    }
+    .sqaure{
+        /* height: 13em;
+        width : 14em; */
+        border-style: solid;
+        border-width: 2px;
+       
+    }
+}
+
+
+
+@media only screen and (min-width: 441px) and  (max-width: 824px)
+{
+
+  
+    /* .QR {
+        margin-left: 125px !important;
+    } */
+    /* .endorseButton {
+        margin-left: 140px !important;
+    } */
+}
+
+@media only screen and (min-width: 540px)  and (max-width: 1024px)
+{
+    .endorseButton {
+        margin-top: 220px !important;
+    }
+    .QR{
+        margin-left: 17em !important;
+        height: 200px !important;
+        
+
+    }
+    .Scrach{
+     
+        margin-top: 15px !important;
+    }
+    
+   
+}
+
+
+.endorse{
+    /* margin-left: 2em; */
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
+.logout {
+    color:#01A0DB;
+    width: 90px;
+    height: 30px;
+    font-size: 12px;
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: #01A0DB;
+    outline: none !important;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 0%;
+}
+
+.endorseButton {
+    color:#01A0DB;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: #01A0DB;
+    margin-left: 15px;
+    margin-top: 190px;
+    outline: none !important;
+    cursor: pointer;
+    /* padding: 5px */
+}
+
+.header{
+    margin-top: 1em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 26px;
+    /* font-weight: bold; */
+    /* font-family: "sans-serif"; */
+
+}
+
+.FivoTech {
+    height: 300px;
+    background-color: #01A0DB;
+    border-radius: 20px;
+    width: 100%;
+    padding: 50px  50px  50px ;
+}
+.Name{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+.Details {
+    font-size: 12px;
+    color: white;
+}
+.table {
+    width: 320px;
+    max-width: 70%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+.borderless td  {
+    border: none;
+    padding: 7px;
+    /* border-spacing:0 10px; */
+    
+}
+.sqaure{
+    height: 13em;
+    width : 14em;
+    /* align-self: center; */
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: white;
+    /* margin-left : 15px; */
+   
+}
+.Cdetails {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.CompanyDetails {
+    display: flex;
+    float: left;
+    width : 190px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+
+}
+.subDetails {
+    width : 180px;
+    font-size: 12px;
+    color: white;
+    float: left;
+}
+
+.FivoLogo{
+    background-image: url(../../assets/dashboard/FullLogo.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+
+}
+.QR{
+    background-image: url(../../assets/dashboard/QR.png);
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px; 
+     width: 500px;
+    /* margin: auto; */
+    /* align-self: center; */
+    /* padding-top : 10px; */
+    /* margin-left: 20px; */
+    /* padding-left: 40px; */
+    margin-top: 50px;
+
+}
+
+.Scrach{
+    height: 300px ;
+    background-color: #e1f7ff;
+    border-radius: 20px;
+    width : 100%;
+    /* margin-top: 10px; */
+    display: block;
+}
+.cardClass{
+    background-color: #bfe7f6;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    align-items : center;
+    padding: 7px 10px 10px 10px;
+    margin-bottom: 10px;
+
+}
+.cardClass1{
+    background-color: #d1ffff;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    align-items : center;
+    padding: 7px 10px 10px 10px;
+    margin-bottom: 10px;
+
+}
+.cardClass2{
+ 
+    background-color: #ffe4df;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    align-items : center;
+    padding: 7px 10px 10px 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.Initials{
+    padding-top: 12px;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.initCircle{
+    background-color: #0180ff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    margin: auto;
+    margin-top: 7px;
+}
+.initCircle1{
+    background-color: #01dbdb;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    font-weight: 500;
+    margin: auto;
+    margin-top: 7px;
+}
+.initCircle2{
+    background-color: #f9624a;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    font-weight: 500;
+    margin: auto;
+    margin-top: 7px;
+}
+/* .initLetters {
+    
+    margin-top: 95px;
+    margin: auto;
+    align-self: center;
+    background-color: black;
+} */
+/* .personInfo{
+    align-self: center;
+    margin-top : 5px;
+    padding: 2px;
+} */
+.personInfo p {
+    background-color: transparent;
+    font-size: 12px;
+    float: left;
+    margin-bottom: 2px;
+    color: black;
+}
+.bootomSection {
+    margin-bottom: 20px;
+    width: 100%;
+}

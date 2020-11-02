@@ -1,0 +1,115 @@
+*{
+    top:0;
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+.endorse{
+    margin-left: 2em;
+    font-weight: 500;
+    font-size: 20px;
+}
+/* .wrapper{
+    margin-top: 2px;
+} */
+
+.container-fluid {
+    width: 100%;
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    /* margin-right: auto; */
+    margin-left: auto;
+}
+    @media only screen and (max-width: 500px)
+{
+    .backImage{
+        background-image: url(../assets/login/mobileView.png) !important; 
+         background-size: 100% 100%;
+     border-radius: 30px !important;
+    }
+    .form{
+    
+        padding-top: 190px !important;
+    }
+}
+@media only screen and (min-width: 540px)  
+{
+    .backImage{
+        background-image: url(../assets/login/mobileView.png); 
+     background-size: 100% 100%;
+     border-radius: 55px;
+     /* background-size: cover; */
+
+    }
+    .form{
+    
+        padding-top: 200px !important;
+    }
+
+}
+@media only screen and (min-width: 769px)
+{
+    .backImage{
+        background-image: url(../assets/login/login.png); 
+     background-size: contain;
+
+    }
+}
+.backImage{
+    /* align-self: center; */
+     /* background-image: url(../assets/login/login.png);  */
+    height: 100vh;
+    width: 100%;
+     background-repeat: no-repeat;
+}
+.form{
+    
+    padding-top: 200px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+.optional{
+    color: gray;
+}
+.loginButton {
+    margin-top: 1em;
+    color:#01A0DB;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: #01A0DB;
+    width: 100%;
+    margin-left: 0%;
+    margin-inline-end: 2em;
+    background-color: transparent;
+    font-size: 12px;
+    height: 30px;
+    outline: none !important ;
+    cursor: pointer;
+    padding : 5px
+
+
+}
+.cancelButton{
+    margin-top: 1em;
+    color:grey;
+    width: 100%;
+    height: 30px;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: grey;
+    margin-left: 0%;
+    font-size: 12px;
+    outline: none !important;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 5px
+
+}
+.loginForm{
+    width: 100%;
+    align-self: center;
+}
