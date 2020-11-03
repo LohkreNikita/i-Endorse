@@ -1,31 +1,17 @@
 *{
-    top:0;
-    bottom: 0;
+   
     font-family: 'Roboto', sans-serif;
  
 }
-.endorse{
-    margin-left: 2em;
-    font-weight: 500;
-    font-size: 20px;
-}
-/* .wrapper{
-    margin-top: 2px;
-} */
 
-.container-fluid {
-    width: 100%;
-    /* padding-right: 15px; */
-    /* padding-left: 15px; */
-    /* margin-right: auto; */
-    margin-left: auto;
-}
+
     @media only screen and (max-width: 500px)
 {
     .backImage{
+    margin-top: 4em;
+
         background-image: url(../assets/login/mobileView.png) !important; 
-         background-size: 100% 100%;
-     border-radius: 30px !important;
+
     }
     .form{
     
@@ -35,11 +21,10 @@
 @media only screen and (min-width: 540px)  
 {
     .backImage{
-        background-image: url(../assets/login/mobileView.png); 
-     background-size: 100% 100%;
-     border-radius: 55px;
-     /* background-size: cover; */
+    margin-top: 4em;
 
+        background-image: url(../assets/login/mobileView.png); 
+        background-size: 100% 100%;
     }
     .form{
     
@@ -50,14 +35,13 @@
 @media only screen and (min-width: 769px)
 {
     .backImage{
+    margin-top: 5em;
         background-image: url(../assets/login/login.png); 
-     background-size: contain;
+     background-size: 100% 100%;
 
     }
 }
 .backImage{
-    /* align-self: center; */
-     /* background-image: url(../assets/login/login.png);  */
     height: 100vh;
     width: 100%;
      background-repeat: no-repeat;
@@ -88,7 +72,6 @@
     height: 30px;
     outline: none !important ;
     cursor: pointer;
-    padding : 5px
 
 
 }
@@ -112,4 +95,9 @@
 .loginForm{
     width: 100%;
     align-self: center;
+}
+.endorse{
+    background-repeat: no-repeat;
+    height: 80px;
+    position: absolute;
 }

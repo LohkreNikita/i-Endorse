@@ -1,53 +1,43 @@
-/* *{
-    top:0;
-    bottom: 0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    
-} */
 
 @media only screen and (min-width: 0px) and  (max-width: 760px)
 {
+    .header{
+        margin-top: 25px !important;
+    }
+    .endorseButton {
+        margin-top: 210px !important;
+    }
     .FivoTech {
         height: 520px !important;
         padding: 20px 20px 20px 20px;
     }
-    /* .endorseButton {
-        
-        margin-left: 9em !important;
-       
-    } */
+
     .Scrach{
-     
-        /* width : 330px !important; */
-        margin-top: 15px !important;
+             margin-top: 15px !important;
     }
     .QR{
-        margin-left: 6em !important;
+        margin-left: 5em !important;
     
     }
     .sqaure{
-        /* height: 13em;
-        width : 14em; */
         border-style: solid;
         border-width: 2px;
+        background-color: white;
        
+    }
+    .logout{
+        margin-top: 20px !important;
     }
 }
 
 
-
-@media only screen and (min-width: 441px) and  (max-width: 824px)
+@media only screen and  (min-width: 1024px)
 {
-
-  
-    /* .QR {
-        margin-left: 125px !important;
-    } */
-    /* .endorseButton {
-        margin-left: 140px !important;
-    } */
+    .bootomSection {
+        margin-left: 25px !important;
+    }
 }
+
 
 @media only screen and (min-width: 540px)  and (max-width: 1024px)
 {
@@ -70,10 +60,7 @@
 
 
 .endorse{
-    /* margin-left: 2em; */
-    font-weight: bold;
-    font-size: 20px;
-
+    background-repeat: no-repeat;
 }
 
 
@@ -90,7 +77,8 @@
     outline: none !important;
     cursor: pointer;
     padding: 5px;
-    margin-left: 0%;
+    margin-right: 30px;
+    margin-top: 18px;
 }
 
 .endorseButton {
@@ -107,18 +95,14 @@
     margin-top: 190px;
     outline: none !important;
     cursor: pointer;
-    /* padding: 5px */
 }
 
 .header{
-    margin-top: 1em;
+    margin-top: 10px;
     font-weight: 600;
     text-align: center;
     margin-bottom: 1em;
     font-size: 26px;
-    /* font-weight: bold; */
-    /* font-family: "sans-serif"; */
-
 }
 
 .FivoTech {
@@ -145,19 +129,16 @@
 }
 .borderless td  {
     border: none;
-    padding: 7px;
-    /* border-spacing:0 10px; */
-    
+    padding: 7px;    
 }
 .sqaure{
     height: 13em;
     width : 14em;
-    /* align-self: center; */
     border-style: solid;
     border-width: 0.2px;
     border-color: white;
-    /* margin-left : 15px; */
-   
+    background-color: white;
+ 
 }
 .Cdetails {
     display: flex;
@@ -181,29 +162,23 @@
 }
 
 .FivoLogo{
-    background-image: url(../../assets/dashboard/FullLogo.png);
-    position: relative;
+    /* background-image: url(../../assets/dashboard/ENDORSE-LOGO.png); */
+    background-image: url(../../assets/dashboard/ENDORSE-LOGO-b&w.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 80%;
     width: 80%;
     margin: auto;
-    margin-top: 100px;
-
+    margin-top: 50px;
+    margin-left: 30px;
 }
 .QR{
     background-image: url(../../assets/dashboard/QR.png);
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 500px; 
-     width: 500px;
-    /* margin: auto; */
-    /* align-self: center; */
-    /* padding-top : 10px; */
-    /* margin-left: 20px; */
-    /* padding-left: 40px; */
     margin-top: 50px;
+    margin-left: 9em;
 
 }
 
@@ -212,39 +187,20 @@
     background-color: #e1f7ff;
     border-radius: 20px;
     width : 100%;
-    /* margin-top: 10px; */
     display: block;
 }
 .cardClass{
-    background-color: #bfe7f6;
+    background-color:white;
     border-radius: 10px;
     justify-content: center;
     display: flex;
     align-items : center;
     padding: 7px 10px 10px 10px;
     margin-bottom: 10px;
-
-}
-.cardClass1{
-    background-color: #d1ffff;
-    border-radius: 10px;
-    justify-content: center;
-    display: flex;
-    align-items : center;
-    padding: 7px 10px 10px 10px;
-    margin-bottom: 10px;
-
-}
-.cardClass2{
- 
-    background-color: #ffe4df;
-    border-radius: 10px;
-    justify-content: center;
-    display: flex;
-    align-items : center;
-    padding: 7px 10px 10px 10px;
-    margin-bottom: 10px;
-
+    border-color: #0180ff;
+    border-style: solid ;
+    border-width: 1px;
+    width: 270px;
 
 }
 
@@ -290,18 +246,7 @@
     margin: auto;
     margin-top: 7px;
 }
-/* .initLetters {
-    
-    margin-top: 95px;
-    margin: auto;
-    align-self: center;
-    background-color: black;
-} */
-/* .personInfo{
-    align-self: center;
-    margin-top : 5px;
-    padding: 2px;
-} */
+
 .personInfo p {
     background-color: transparent;
     font-size: 12px;
@@ -311,5 +256,4 @@
 }
 .bootomSection {
     margin-bottom: 20px;
-    width: 100%;
 }

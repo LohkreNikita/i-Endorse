@@ -1,19 +1,10 @@
 
-/* :root 
-{
-  --bg-color:#F2F3FB;
-  --inset:#E5E8F2;
-  --nm: 6px 6px 16px 0 rgba(0, 0, 0, 0.2),
-  -6px -6px 16px 0 rgba(255, 255, 255, 1);
-  --nm-inset:inset 4px 4px 8px 0 rgba(0, 0, 0, 0.2),
-  inset -4px -4px 8px 0 rgba(255, 255, 255, 0.8);
-} */
-
 
 @font-face {
     font-family:"Roboto";
     src: url(../assets//font//Roboto/LICENSE.txt);
   }
+
 
 @media only screen and (min-width: 0px) and  (max-width: 1024px)
 {
@@ -23,9 +14,8 @@
         margin: 0% !important;
     }
     .endorse{
-        font-weight: 500;
-        margin-top: 25px !important;
-        font-size: 22px !important;
+        height: 60px !important;
+        width: 100px !important;
     }
     .registerForm  p {
       font-size: 20px !important;
@@ -37,93 +27,15 @@
 
     .container-fluid {
         width: 100%;
-        /* padding-right: 0px !important;
-        padding-left: 0px !important;
-        margin-right: 0px !important;
-        margin-left: 0px !important; */
     }
 
 }
-/* @media only screen and (min-width: 540px)  and (max-width: 1024px)
-{
-    .outerDiv{
-        border-style: none !important;
-        box-shadow: none !important;
-        margin: 0% !important;
-    }
-    .endorse{
-        font-weight: 500;
-        margin-top: 25px !important;
-        font-size: 22px !important;
-    }
-    .registerForm  p {
-      font-size: 20px !important;
-      margin-top: 0px !important;
-    }
-    .registerForm{
-        margin-top: 20px !important;
-    }
-
-    .container-fluid {
-        width: 100%;
-        padding-right: 0px !important;
-        padding-left: 0px !important;
-        margin-right: 0px !important;
-        margin-left: 0px !important;
-    }
-
-} */
-
-
-  /* @media only screen and (min-width: 0px) and  (max-width: 769px)
-{
-    .outerDiv{
-        border-style: none !important;
-        box-shadow: none !important;
-        margin: 0% !important;
-    }
-    .endorse{
-        font-weight: 500;
-        margin-top: 25px !important;
-        font-size: 22px !important;
-    }
-    .registerForm  p {
-      font-size: 20px !important;
-      margin-top: 0px !important;
-    }
-    .registerForm{
-        margin-top: 20px !important;
-    }
-
-    .container-fluid {
-        width: 100%;
-        padding-right: 0px !important;
-        padding-left: 0px !important;
-        margin-right: 0px !important;
-        margin-left: 0px !important;
-    }
-    
-} */
-
-  /* @media only screen and  (max-width: 760px)
-{
-    .outerDiv {
-        border-style: solid ;
-        border-width: 3px;
-        border-color: #01A0DB;
-        border-radius: 30px;
-        margin: 1em 3em ;
-        box-shadow: 4px 1px 2px 0px rgba(0, 0, 0, 0.19);
-    }
-
-} */
-
 
 .endorse{
-    font-weight: 500;
-    margin-top: 1em;
+    background-repeat: no-repeat;
+    height: 80px;
+    position: absolute;
 }
-
 .SignIn{
     width: 100px;
     height: 70px;
@@ -132,7 +44,7 @@
 
 
 .SignIn button {
-    margin-top: 25px;
+    margin-top: 20px;
     color:#01A0DB;
     width: 100px;
     height: 30px;
@@ -154,7 +66,7 @@
     border-width: 3px;
     border-color: #01A0DB;
     border-radius: 30px;
-    margin: 1em 3em ;
+    margin-top: 5em ;
     box-shadow: 4px 1px 2px 0px rgba(0, 0, 0, 0.19);
 }
 
@@ -177,32 +89,22 @@
     margin-left: 1em;
 }
 .WEllips4 {
-    /* align-self: center; */
     margin-top: 5em;
-    /* align-items: flex-end; */
 }
 
 .TextSection{
     margin-top: 50px;
+    margin-left: 45px;
 }
 
-.TextSection h1 {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    margin-left: 45px;
-    font-size: 25px;
-    font-weight: 600;
-    align-self: center;
-    text-align: start;
-    margin-top : 20px
-
+.TextSection img {
+    margin-left: 15px;
 }
 .TextSection p {
-    /* width: 70%; */
+    margin-top: 90px;
     align-self: center;
     color: white;
     font-weight: 500;
-    margin-left: 45px;
 }
 .InnerText {
     display: flex;
@@ -225,8 +127,9 @@
     width: 8em;
     font-size: 12px;
     background-color: inherit;
-    color: white;   
-    border-color: white;
+    color: #01A0DB; 
+    border-color: white;  
+    background-color: white;
     border-style: solid;
     border-width: 1px;
     height: 30px;
@@ -246,11 +149,6 @@
     margin-top: 0%;
     margin-left: 1em;
 }
-/* .BEllips2 {
-    align-items: flex-end;
-} */
-
-
 .registerForm {
     margin-top: 40px;
 }
@@ -280,7 +178,6 @@ input[type="file"] {
   top: 0;
 }
 .upload{
-    /* position: relative; */
     overflow: hidden;
     margin-top: 0%;
     justify-items: start;
@@ -310,8 +207,7 @@ input[type="file"] {
     outline: none !important;
     cursor: pointer;
     padding : 5px ;
-    /* padding-bottom: 10px; */
-    
+   
 }
 .registerButton-div{
     display: flex;
@@ -328,9 +224,8 @@ input[type="file"] {
 /* mobile view contents */
 
 .details {
-    /* width: 100%; */
     background-color:#01A0DB ;
-    /* padding: 10px 10px 10px 10px; */
+    margin-top: 5px;
 
 }
 
@@ -339,7 +234,6 @@ input[type="file"] {
     text-align: left;
     color: white;
     font-size: 16px;
-     /* margin-left: -20px; */
     border-style: none;
 }
 
