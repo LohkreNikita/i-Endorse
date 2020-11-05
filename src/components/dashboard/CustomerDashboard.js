@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
 import "./CustomerDashboard.css"
 import { withRouter, Link } from 'react-router-dom'
-import logo from "../../assets/dashboard/ENDORSE-LOGO-b&w.png"
-// import logo from "../../assets/dashboard/ENDORSE-LOGO.png"
+import logo from "../../assets/image.png"
+import group1 from "../../assets/dashboard/Icons/Group1.png";
+import group2 from "../../assets/dashboard/Icons/Group2.png";
+import group4 from "../../assets/dashboard/Icons/Group4.png";
+import group5 from "../../assets/dashboard/Icons/Group5.png";
+import logoF2 from "../../assets/dashboard/Icons/logoF2.png"
+import logoF3 from "../../assets/dashboard/Icons/logoF3.png"
+import logoF4 from "../../assets/dashboard/Icons/logoF4.png";
+import search from "../../assets/dashboard/Icons/serchIcon.png"
 
 
 
@@ -10,186 +17,200 @@ import logo from "../../assets/dashboard/ENDORSE-LOGO-b&w.png"
 class Dashboard extends Component {
     render() {
         return (
-            <div class="container-fluid" >
-                <div class="row "  >
+            <div className="container-fluid"  >
+                <div className="row "  >
                     <div   >
                         <img src={logo} alt="endorse" className="endorse img-fluid" />
                     </div>
-                    <div class=" ml-auto" >
-                        <button type="submit" class="logout">Logout</button>
+                    <div className=" ml-auto" >
+                        <button type="submit" className="logout">Logout</button>
                     </div>
                 </div>
+                <div className="row m-5" >
+                    {/* <div className="frame"  style={{backgroundColor:'grey'}}> */}
+                    <div className="col-8">
 
-                <div class="header">DASHBOARD</div>
-                <div>
-                    <div class="row  justify-content-center">
-                        <div class="  col-lg-8 col-12 justify-content-around ">
-                            <div class="FivoTech">
-                                <div class='row '>
-                                    <div class="col-md-7 col-12" >
-                                        <div class="Cdetails" >
-                                            <div class="CompanyDetails">Name of Company :
-                               </div>
-                                            <div class="subDetails">FivoTech</div>
-                                        </div>
-                                        <div class="Cdetails">
+                        <div className="history">History of Endorsement</div>
+                        <table className="table table-borderless .w-auto"   >
+                            <thead>
 
-                                            <div class="CompanyDetails">Phone no :
-                               </div>
-                                            <div class="subDetails">976293473</div>
-                                        </div>
-                                        <div class="Cdetails">
-                                            <div class="CompanyDetails">Address :
-                               </div>
-                                            <div class="subDetails"> 123, Main Street, New York, NY 2020hii </div>
-                                        </div>
-                                        <div class="Cdetails">
-                                            <div class="CompanyDetails">Email ID :
-                               </div>
-                                            <div class="subDetails"> FivoTechlip@gmail.com </div>
-                                        </div>
+                                <tr >
+                                    <th >Logo</th>
+                                    <th colspan={2} >Company Name</th>
+                                    <th >Date</th>
+                                    <th >View Company</th>
+                                    <th >Link</th>
+                                </tr>
 
-                                        <div class="Cdetails">
+                            </thead>
+                            <tbody class="gfg">
+                                    <tr >
+                                        <td >
+                                            <img src={group1} alt="logo" className="logoClass"></img>
+                                        </td>
+                                        <td colspan={2}>Nexus Limited</td>
+                                        <td>10/10/20</td>
+                                        <td className="colored">View</td>
+                                        <td className="colored">Share</td>
+                                    </tr>
+                                    <tr>
+                                        <td >
+                                            <img  src={group2} alt="logo" className="logoClass"></img>
+                                        </td>
+                                        <td colspan={2}>Healthcare Limited</td>
+                                        <td>10/10/20</td>
+                                        <td className="colored">View</td>
+                                        <td className="colored">Share</td>
+                                    </tr>
 
-                                            <div class="CompanyDetails">Category :
-                               </div>
-                                            <div class="subDetails">Finance</div>
-                                        </div>
+                                    <tr>
+                                        {/* <th scope="row">1</th> */}
+                                        <td>
+                                            <img src={group4} alt="logo" className="logoClass"></img>
+                                        </td>
+                                        <td colspan={2}>Nexus Limited</td>
+                                        <td>10/10/20</td>
+                                        <td className="colored">View</td>
+                                        <td className="colored">Share</td>
+                                    </tr>
+                                    <tr>
+                                        {/* <th scope="row">1</th> */}
+                                        <td>
+                                            <img src={group5} alt="logo" className="logoClass"></img>
+                                        </td>
+                                        <td colspan={2}>Nexus Limited</td>
+                                        <td>10/10/20</td>
+                                        <td className="colored">View</td>
+                                        <td className="colored">Share</td>
+                                    </tr>
 
+                                    <tr>
+                                        {/* <th scope="row">1</th> */}
+                                        <td>
+                                            <img src={group1} alt="logo" className="logoClass"></img>
+                                        </td>
+                                        <td colspan={2}>Nexus Limited</td>
+                                        <td>10/10/20</td>
+                                        <td className="colored">View</td>
+                                        <td className="colored">Share</td>
+                                    </tr>
+
+                            </tbody>
+                        </table>
+     
+                    </div>
+                    <div className="col-4" >
+                        <div class="SearchSection">
+                        <div class="input-group ">
+            <input class="form-control py-2 border-0 searchBar  " type="search" value="search companies" id="example-search-input"/>
+            <span class="input-group-append">
+                <div class="input-group-text bg-white border-0 searchBar"><img src={search} class="searchIcon"></img></div>
+            </span>
+        </div>
+                        <div class="Stext">Companies Near You</div>
+
+                        <div className=" align-self-center ">
+                            <div className="frameClass card shadow   rounded">
+                                <div className="row no-gutters justify-content-between ">
+                                    <div className="col-3 justify-content-between ">
+                                        <img src={logoF2} className=" flogo  " >
+                                        </img>
 
                                     </div>
-                                    <div class="col-md-4 offset-md-4 col-12 ml-md-auto sqaure"  >
-                                        <div class="FivoLogo"></div>
-                                    </div>
 
+                                    <div className="col-9 ">
+                                        <div className="personInfo">
+
+                                            <p> Company : <span> Nexus Private Limited
+                         </span> </p>
+                                            <p> Contact : <span> 9763479678
+                         </span> </p>
+                                            <p> Email ID : <span> Nexus@gmail.com
+                         </span> </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-12 col-12 align-items-center" >
-                            <div class=" Scrach" >
+                        <div className="align-self-center ">
+                            <div className="frameClass card  p-3 bg-white rounded shadow">
+                                <div className="row no-gutters justify-content-between ">
 
-                                <div class=" col-md-4 col-6 QR align-self-center " >
-                                    <Link to="/login">
+                                    <div className="col-3  ">
+                                        <img src={logoF2} className=" flogo  " >
+                                        </img>
+                                    </div>
 
-                                        <button type="submit" class="endorseButton">Endorse</button>
-                                    </Link>
+                                    <div className="col-9  ">
+                                        <div className="personInfo">
+
+                                            <p> Company : <span> Nexus Private Limited
+</span> </p>
+                                            <p> Contact : <span> 9763479678
+</span> </p>
+                                            <p> Email ID : <span> Nexus@gmail.com
+</span> </p>
+                                        </div>
+                                    </div>
                                 </div>
+                            </div>
 
+                        </div>
+
+                        <div className=" align-self-center ">
+                            <div className="frameClass card  p-3 bg-white rounded shadow">
+                                <div className="row no-gutters justify-content-between ">
+
+                                    <div className="col-3  ">
+                                        <img src={logoF3} className=" flogo  " >
+                                        </img>
+                                    </div>
+                                    <div className="col-9  ">
+                                        <div className="personInfo">
+
+                                            <p> Company : <span> Nexus Private Limited
+</span> </p>
+                                            <p> Contact : <span> 9763479678
+</span> </p>
+                                            <p> Email ID : <span> Nexus@gmail.com
+</span> </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div className=" align-self-center ">
+                            <div className="frameClass card  p-3 bg-white rounded shadow">
+                                <div className="row no-gutters justify-content-center ">
+
+                                    <div className="col-3 " >
+                                        <img src={logoF4} className=" flogo  " >
+                                        </img>
+                                    </div>
+
+                                    <div className="col-9 " >
+                                        <div className="personInfo">
+
+                                            <p> Company : <span> Nexus Private Limited
+</span> </p>
+                                            <p> Contact : <span> 9763479678
+</span> </p>
+                                            <p> Email ID : <span> Nexus@gmail.com
+</span> </p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="header">ENDORSEMENT</div>
-                <div class="bootomSection">
-                    <div class="row  justify-content-around"
-                    >
-
-                        <div class="col-lg-3 col-md-6  col-10  ">
-                            <div class="cardClass">
-                                <div class="row no-gutters justify-content-start ">
-
-                                    <div class="col-4 " >
-                                        <div class="initCircle  ">
-                                            <div class="Initials" >
-                                                AS
-                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-8 " >
-                                        <div class="personInfo">
-                                            <p> Person : <span>Abishekh Sahu
-                                 </span> </p>
-                                            <p> Contact : <span>9762384678
-                                 </span> </p>
-                                            <p> Date : <span>22-10-2020
-                                 </span> </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
 
-                        <div class="col-lg-3 col-md-6  col-10  align-self-center ">
-                            <div class="cardClass">
-                                <div class="row no-gutters justify-content-between ">
 
-                                    <div class="col-3  ">
-                                        <div class="initCircle1  ">
-                                            <div class="Initials" >
-                                                AS
-                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-8  ">
-                                        <div class="personInfo">
-                                            <p> Person : <span>Suraj More
-                         </span> </p>
-                                            <p> Contact : <span>7086284678
-                         </span> </p>
-                                            <p> Date : <span>05-03-2020
-                         </span> </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-3 col-md-6   col-10 align-self-center ">
-                            <div class="cardClass">
-                                <div class="row no-gutters justify-content-between ">
-
-                                    <div class="col-3  ">
-                                        <div class="initCircle2  ">
-                                            <div class="Initials" >
-                                                AS
-                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-8  ">
-                                        <div class="personInfo">
-
-                                            <p> Person : <span>Amith pandey
-                         </span> </p>
-                                            <p> Contact : <span>9762384678
-                         </span> </p>
-                                            <p> Date : <span>15-01-2020
-                         </span> </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-3 col-md-6  col-10 align-self-center ">
-                            <div class="cardClass">
-                                <div class="row no-gutters justify-content-between ">
-                                    <div class="col-3  ">
-                                        <div class="initCircle  ">
-                                            <div class="Initials" >
-                                                AS
-                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-8 ">
-                                        <div class="personInfo">
-
-                                            <p> Person : <span>Rohit Kumar
-                         </span> </p>
-                                            <p> Contact : <span>9763479678
-                         </span> </p>
-                                            <p> Date : <span>20-06-2020
-                         </span> </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         );

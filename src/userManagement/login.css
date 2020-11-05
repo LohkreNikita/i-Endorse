@@ -3,14 +3,22 @@
     font-family: 'Roboto', sans-serif;
  
 }
-
+    /* .container1{
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+    } */
 
     @media only screen and (max-width: 500px)
 {
     .backImage{
-    margin-top: 4em;
+        margin-top: 4em;
+        background-image: url(../assets/login/mobileView.png)  !important; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 
-        background-image: url(../assets/login/mobileView.png) !important; 
 
     }
     .form{
@@ -21,14 +29,14 @@
 @media only screen and (min-width: 540px)  
 {
     .backImage{
-    margin-top: 4em;
-
+        margin-top: 4em;
         background-image: url(../assets/login/mobileView.png); 
         background-size: 100% 100%;
     }
+    
     .form{
     
-        padding-top: 200px !important;
+        padding-top: 300px !important;
     }
 
 }
@@ -36,8 +44,10 @@
 {
     .backImage{
     margin-top: 5em;
-        background-image: url(../assets/login/login.png); 
+     background-image: url(../assets/login/login.png); 
      background-size: 100% 100%;
+     border-radius: 30px;
+
 
     }
 }

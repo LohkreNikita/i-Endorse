@@ -1,0 +1,128 @@
+@media only screen and (min-width: 0px) and  (max-width: 500px)
+{
+    .bgimage{
+        height: 320px !important;  
+        /* width: 100% !important; */
+        margin-top: 0px !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: -15px  !important ;
+        margin-right: -15 !important;
+    }  
+    .appstore{
+        width: 150px !important;
+        text-align: center !important;
+    } 
+    .footerText{
+        text-align: left !important;
+    }
+    .footerClass{
+        text-align: center;
+    }
+    .SocialSide{
+        margin-left: -15px !important;
+        margin-top: 0px !important;
+        height: 500px !important;
+        /* width:  !important; */
+    }
+    .app {
+        text-align: center !important;
+        margin-bottom: 10px;
+
+    }
+    .play{
+        text-align: center !important;
+    }
+    .SocialSide p{
+        padding: 3px !important;
+    }
+
+}
+@media only screen and  (min-width: 500px)
+{
+    .bgimage{
+        width: 95% !important;
+
+    }
+}  
+
+.bgimage{
+    height: 500px;  
+    position: contain;
+    margin-top: 60px;
+    float: center;
+    margin-left: 30px;
+}
+
+.SocialSide{
+    background-color: #01A0DB;
+    height: 500px ;
+    width: 100%;
+    justify-content: center;
+    align-self: center;
+    margin-top: 60px;
+    /* padding: 20px 20px 20px 20px; */
+}
+
+.appstore{
+    width: 170px;
+}
+.SocialSide p{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 30px;
+}
+.SocialSide h1{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.SocialSide button{
+    width:200px;
+    font-size: 14px;
+    padding: 5px;
+    color: white;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    cursor: pointer;
+}
+.wlogo{
+    align-content: center;
+    height: 100px;
+    margin : 0 auto;
+    display: block;
+}
+.footerText {
+    font-size: 16px;
+    font-weight: bold;
+    color: grey;
+}
+.copyrightLogo {
+    height: 25px;
+    margin-left: 5em;
+
+}
+.copyText{
+    font-size: 16px;
+    font-weight: bold;
+    color: #c2c2c2;
+    margin-left: 3px;
+    /* float: left; */
+    
+}
+
+.app {
+    text-align: left;
+}
+.play{
+    text-align: right;
+}

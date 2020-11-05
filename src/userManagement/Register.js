@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './Register.css';
 import { withRouter, Link } from 'react-router-dom';
-import logo from "../assets/dashboard/ENDORSE-LOGO-b&w.png"
-// import logo from "../assets/dashboard/ENDORSE-LOGO.png"
+import logo from "../assets/image.png"
 
 
 
@@ -57,7 +56,8 @@ class Register extends Component {
                                 </div>
                                 <div class=" TextSection" >
                                     <div class="row">
-                                        <img src={logo} alt="endorse" className="endorse img-fluid" />
+                                        <h1 > i-Endorse</h1>
+                                        {/* <img src={logo} alt="endorse" className="endorse img-fluid" /> */}
                                     </div>
                                     <p >You can choose the right website and services for your business based on 1,166,700+
                                     uthentic, timely reviews from real users.
@@ -118,21 +118,24 @@ class Register extends Component {
                                                 <input type="text" class="form-control form-control-sm" id="subject" aria-describedby="subject" />
                                             </div>
 
-                                            <div class="form-row" >
-                                                <div class="col-4 " >
+                                            <div class="form-group form-row " >
+                                                <div class=" col-4 " >
                                                     <label class="subject">Upload Logo </label>
-                                                    <div class="btn btn-sm  upload " >
-                                                        <span class="btn-sm text-justify "> Upload </span>
-                                                        <input class="form-control-sm" type="file" id="subject" />
-                                                    </div>
+                                                    
+                                                    <div class="file btn btn-lg upload ">
+							Upload
+							<input type="file" name="file"/>
+						</div>
                                                 </div>
+
                                                 <div class="col-8" >
                                                     <label for="phone">Phone number</label>
 
                                                     <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" class="form-control form-control-sm" />
                                                 </div>
+
                                             </div>
-                                            <div class="form-group">
+                                            <div class="form-group" >
 
                                                 <label for="subject" class="">Address</label>
                                                 <input type="text" id="subject" name="subject" class="form-control form-control-sm" />
@@ -148,7 +151,7 @@ class Register extends Component {
                                                 <input type="text" id="subject" name="subject" class="form-control form-control-sm" />
                                             </div>
                                             <div class="registerButton-div">
-                                                <Link to="/dashboard">
+                                                <Link to="/udashboard">
                                                     <button type="submit" class="registerButton" >Register</button>
                                                 </Link>
                                             </div>

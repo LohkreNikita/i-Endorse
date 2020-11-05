@@ -1,62 +1,13 @@
 
-@media only screen and (min-width: 0px) and  (max-width: 760px)
+@media only screen and (min-width: 0px) and  (max-width: 500px)
 {
-    .header{
-        margin-top: 25px !important;
-    }
-    .endorseButton {
-        margin-top: 210px !important;
-    }
-    .FivoTech {
-        height: 520px !important;
-        padding: 20px 20px 20px 20px;
-    }
-
-    .Scrach{
-             margin-top: 15px !important;
-    }
-    .QR{
-        margin-left: 5em !important;
-    
-    }
-    .sqaure{
-        border-style: solid;
-        border-width: 2px;
-        background-color: white;
-       
-    }
+   
     .logout{
         margin-top: 20px !important;
     }
+
 }
 
-
-@media only screen and  (min-width: 1024px)
-{
-    .bootomSection {
-        margin-left: 25px !important;
-    }
-}
-
-
-@media only screen and (min-width: 540px)  and (max-width: 1024px)
-{
-    .endorseButton {
-        margin-top: 220px !important;
-    }
-    .QR{
-        margin-left: 17em !important;
-        height: 200px !important;
-        
-
-    }
-    .Scrach{
-     
-        margin-top: 15px !important;
-    }
-    
-   
-}
 
 
 .endorse{
@@ -80,180 +31,105 @@
     margin-right: 30px;
     margin-top: 18px;
 }
-
-.endorseButton {
-    color:#01A0DB;
-    width: 100px;
-    height: 30px;
-    font-size: 12px;
-    background-color: transparent;
-    border-style: solid;
-    border-radius: 15px;
-    border-width: 1px;
-    border-color: #01A0DB;
-    margin-left: 15px;
-    margin-top: 190px;
-    outline: none !important;
-    cursor: pointer;
-}
-
-.header{
-    margin-top: 10px;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 1em;
-    font-size: 26px;
-}
-
-.FivoTech {
-    height: 300px;
-    background-color: #01A0DB;
-    border-radius: 20px;
+.frame{
+    margin-top: 3em;
     width: 100%;
-    padding: 50px  50px  50px ;
+    /* background-color: lawngreen; */
 }
-.Name{
-    font-size: 12px;
+.history{
+    font-size: 24px;
     font-weight: bold;
-    color: white;
+    margin-bottom: 5px;
 }
-.Details {
-    font-size: 12px;
-    color: white;
+table {
+    /* display: block;
+    width: 100%; */
+    border-collapse: separate; 
+    /* background-color: green; */
 }
-.table {
-    width: 320px;
-    max-width: 70%;
-    margin-bottom: 1rem;
-    background-color: transparent;
+tr.border{
+    outline: thin solid;
 }
-.borderless td  {
-    border: none;
-    padding: 7px;    
+.gfg{
+          border-collapse:separate; 
 }
-.sqaure{
-    height: 13em;
-    width : 14em;
-    border-style: solid;
-    border-width: 0.2px;
-    border-color: white;
-    background-color: white;
- 
-}
-.Cdetails {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 20px;
-}
-.CompanyDetails {
-    display: flex;
-    float: left;
-    width : 190px;
-    font-size: 12px;
-    font-weight: bold;
-    color: white;
-
-}
-.subDetails {
-    width : 180px;
-    font-size: 12px;
-    color: white;
-    float: left;
-}
-
-.FivoLogo{
-    /* background-image: url(../../assets/dashboard/ENDORSE-LOGO.png); */
-    background-image: url(../../assets/dashboard/ENDORSE-LOGO-b&w.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 80%;
-    width: 80%;
-    margin: auto;
-    margin-top: 50px;
-    margin-left: 30px;
-}
-.QR{
-    background-image: url(../../assets/dashboard/QR.png);
-    position: absolute;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: 50px;
-    margin-left: 9em;
-
-}
-
-.Scrach{
-    height: 300px ;
-    background-color: #e1f7ff;
-    border-radius: 20px;
-    width : 100%;
-    display: block;
-}
-.cardClass{
-    background-color:white;
+ td { 
+    width:150px; 
+    text-align:center; 
+    border:1px solid #01A0DB; 
     border-radius: 10px;
+    padding:10px 
+  
+}
+.spacer {
+    border: 1px solid #01A0DB;
+    margin-top: 10px;
+    margin-bottom:10px;
+    border-radius: 10px;
+    width: auto;
+  }
+  .tableRow{
+    border: 5px solid #01A0DB;
+    margin-top: 10px;
+    margin-bottom:10px;
+    border-radius: 10px;
+  }
+  .logoClass{
+      height: 50px;
+  }
+
+.colored{
+    color: #01A0DB;
+}
+
+.Stext{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.SearchSection{
+    /* height: 100vh; */
+    padding: 20px;
+    background-color: #e1f7ff;
+}
+
+  .flogo{
+      height: 50px;
+      width: 50px;
+      margin-top: 5px;
+      margin-left: 5px;
+  }
+
+  .frameClass{
+    background-color:white;
+    border-radius: 5px;
     justify-content: center;
     display: flex;
     align-items : center;
-    padding: 7px 10px 10px 10px;
-    margin-bottom: 10px;
-    border-color: #0180ff;
-    border-style: solid ;
-    border-width: 1px;
-    width: 270px;
-
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 15px;
+    height: 100px;
+    width: 300px;
+    align-self: center;
+    margin-left : auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 1px grey;
 }
 
-.Initials{
-    padding-top: 12px;
-    font-weight: 500;
-    font-size: 18px;
+.searchIcon {
+    width: 20px;
+    background-color: white;
+    text-align: left;
+
 
 }
-
-.initCircle{
-    background-color: #0180ff;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    color: white;
-    font-weight: 500;
-    margin: auto;
-    margin-top: 7px;
+.searchBar{
+    border-radius: 50px;
+    
 }
-.initCircle1{
-    background-color: #01dbdb;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    font-weight: 500;
-    color: white;
-    font-weight: 500;
-    margin: auto;
-    margin-top: 7px;
-}
-.initCircle2{
-    background-color: #f9624a;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    font-weight: 500;
-    color: white;
-    font-weight: 500;
-    margin: auto;
-    margin-top: 7px;
-}
-
-.personInfo p {
-    background-color: transparent;
-    font-size: 12px;
-    float: left;
-    margin-bottom: 2px;
-    color: black;
-}
-.bootomSection {
-    margin-bottom: 20px;
-}
+  
+ 

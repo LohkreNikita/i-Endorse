@@ -1,0 +1,279 @@
+
+@media only screen and (min-width: 0px) and  (max-width: 500px)
+{
+    .header{
+        margin-top: 25px !important;
+    }
+    .endorseButton {
+        margin-top: 220px !important;
+
+    }
+    .FivoTech {
+        height: 550px !important;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .Scrach{
+             margin-top: 15px !important;
+    }
+    .QR{
+        /* margin-left: 5em !important; */
+        height: 100 !important;
+        margin-top: 10px !important;
+    
+    }
+    .sqaure{
+        border-style: solid;
+        border-width: 2px;
+        background-color: white;
+       
+    }
+    .logout{
+        margin-top: 20px !important;
+    }
+    .cardClass{
+        width: 100% !important;
+    }
+}
+
+
+@media only screen and  (min-width: 1024px)
+{
+    .bootomSection {
+        margin-left: 25px !important;
+    }
+}
+
+
+@media only screen and (min-width: 501px)  and (max-width: 1024px)
+{
+    .endorseButton {
+        margin-top: 200px !important;
+        margin-right: 80px !important;
+    }
+    .QR{
+        /* margin-left: 17em !important; */
+        height: 180px !important;
+
+    }
+    .Scrach{
+     
+        margin-top: 15px !important;
+    }
+    
+   
+}
+
+
+.endorse{
+    background-repeat: no-repeat;
+}
+
+
+.logout {
+    color:#01A0DB;
+    width: 90px;
+    height: 30px;
+    font-size: 12px;
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: #01A0DB;
+    outline: none !important;
+    cursor: pointer;
+    padding: 5px;
+    margin-right: 30px;
+    margin-top: 18px;
+}
+
+.endorseButton {
+    color:#01A0DB;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: #01A0DB;
+    margin-top: 190px;
+    outline: none !important;
+    cursor: pointer;
+}
+
+.header{
+    margin-top: 10px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 26px;
+}
+
+.FivoTech {
+    height: 300px;
+    background-color: #01A0DB;
+    border-radius: 20px;
+    width: 100%;
+    padding: 50px  50px  50px ;
+}
+.Name{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+.Details {
+    font-size: 12px;
+    color: white;
+}
+.table {
+    width: 320px;
+    max-width: 70%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+.borderless td  {
+    border: none;
+    padding: 7px;    
+}
+.sqaure{
+    height: 13em;
+    width : 14em;
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: white;
+    background-color: white;
+ 
+}
+.Cdetails {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.CompanyDetails {
+    display: flex;
+    float: left;
+    width : 190px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+
+}
+.subDetails {
+    width : 180px;
+    font-size: 12px;
+    color: white;
+    float: left;
+}
+
+.FivoLogo{
+    /* background-image: url(../../assets/image.png); */
+    background-image: url(../../assets/dashboard/panasonic.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.QR{
+    background-image: url(../../assets/dashboard/QR.png);
+    position: relative;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    /* margin-left: 100px; */
+    /* align-self: auto; */
+    /* background-size: 100; */
+
+}
+
+.Scrach{
+    height: 300px ;
+    background-color: #e1f7ff;
+    border-radius: 20px;
+    width : 100%;
+    /* display: block; */
+    padding: 10px  10px  10px 10px ;
+
+/* 
+    height: 300px;
+    background-color: #01A0DB;
+    border-radius: 20px;
+    width: 100%;
+    padding: 50px  50px  50px ; */
+}
+.cardClass{
+    background-color:white;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    align-items : center;
+    padding: 7px 10px 10px 10px;
+    margin-bottom: 15px;
+    border-color: #0180ff;
+    border-style: solid ;
+    border-width: 1px;
+    width: 270px;
+    align-self: center;
+    margin-left : auto;
+    margin-right: auto;
+
+}
+
+.Initials{
+    padding-top: 12px;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.initCircle{
+    background-color: #0180ff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    margin: auto;
+    margin-top: 7px;
+}
+.initCircle1{
+    background-color: #01dbdb;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    font-weight: 500;
+    margin: auto;
+    margin-top: 7px;
+}
+.initCircle2{
+    background-color: #f9624a;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    font-weight: 500;
+    margin: auto;
+    margin-top: 7px;
+}
+
+.personInfo p {
+    background-color: transparent;
+    font-size: 12px;
+    float: left;
+    margin-bottom: 2px;
+    color: black;
+}
+.bootomSection {
+    margin-bottom: 20px;
+}
